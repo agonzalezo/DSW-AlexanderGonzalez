@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Punto1 Titulo -->
+    <title>Sintaxis y Selectores CSS</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+
+    <!-- Punto2 Menu de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Sintaxis Css</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Inicio
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Topics">Temas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Resources">Recursos Digitales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Learn">Aprendizaje</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Acerca De Alexander</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://github.com/agonzalezo">Alexander</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="https://www.unad.edu.co/">Unad</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido del sitio -->
+    <!-- Punto3 Proposito del sitio -->
+    <section class="proposito">
+        <div class="card border-primary mb-3">
+            <div class="card-body">
+                <h4 class="card-title">Proposito Del Sitio</h4>
+                <p class="card-text">Estos recursos educativos estan desarrollados para suplir la necesidad de educación
+                    presencial, son recursos digitales accesibles desde diferentes lugares como contigencia a raiz del
+                    covid 19</p>
+            </div>
+        </div>
+    </section>
+    <!-- Punto4 Articulo -->
+    <article>
+        <div class="card border-primary mb-3">
+            <div class="card-body">
+                <h4 class="card-title">Sintaxis y Selectores CSS</h4>
+                <p class="card-text">
+                    Un conjunto de reglas CSS consta de un selector y un bloque de declaración:
+                </p>
+                <img src="resources/selector.gif" alt="selectores css">
+                <p>
+                    Los puntos selector para el elemento HTML que desea estilo.
+                    El bloque de declaración contiene una o más declaraciones separadas por punto y coma.
+                    Cada declaración incluye un nombre de propiedad CSS y un valor, separados por dos puntos.
+                    Una declaración CSS siempre termina con un punto y coma, y ​​los bloques de declaraciones están
+                    rodeados
+                    por llaves.
+                </p>
+                <q>CSS Sintaxis y selectores. (s. f.). W3BAI.COM Los últimos tutoriales de desarrollo web. Recuperado
+                    27 de septiembre de 2021, de http://www.w3bai.com/es/css/css_syntax.html</q>
+            </div>
+        </div>
+    </article>
+
+    <!-- Punto5 Footer -->
+    <footer class="page-footer font-small blue">
+        <div class="footer-copyright text-center py-3">agonzalezoso@unadvirtual.edu.co
+            <a href="https://join.skype.com/invite/sfiS08E5oEoC">Skype</a>
+            <br>
+            <p>2021/09/26</p>
+        </div>
+
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="bootstrap/js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.js">
+    </script>
+</body>
+
+</html>
