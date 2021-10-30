@@ -33,6 +33,10 @@ section{
 article{
     padding: 1%;
 }
+article h1 {
+    color: #254C8F;
+    text-align: center;
+}
 
 aside{
     grid-column: 5/7;
